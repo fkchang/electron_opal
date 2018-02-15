@@ -14,11 +14,16 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
   s.files       = Dir.glob("lib/**/*").concat(Dir.glob("opal/**/*")) << "README.md" << "LICENSE" 
 
-  s.add_dependency "opal", "~> 0.10.0"
+  s.add_dependency "opal", "~> 0.11.0"
   s.add_dependency "sprockets", "~> 3.2.0"
   s.add_dependency "haml"
   s.add_dependency "fssm"
+  s.add_dependency 'nokogiri'
 
   s.add_development_dependency "tilt", "~> 2.0.1"
   s.add_development_dependency "rack", "~> 1.6.4"
+  s.add_development_dependency 'rkelly-remix'
+  s.add_development_dependency 'activesupport', '~> 5.0.0'
+  s.add_development_dependency 'rake'
+  
 end

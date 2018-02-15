@@ -13,3 +13,4 @@
 *.a
 mkmf.log
 tags
+example/node_modules

@@ -1,4 +1,5 @@
 require 'opal'
+require 'hyper-component'
 require 'electron/browser_window'
 
 app = Electron.app
